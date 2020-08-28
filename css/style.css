@@ -1,0 +1,239 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a[class] {
+  text-decoration: none;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.section {
+  padding-top: 100px;
+}
+
+.section--option_top {
+  background: url("../img/back_head.png") ;
+  background-size: cover;
+  height: 100%;
+}
+
+.section--option_primary {
+  background-color: #eeeeee;
+}
+
+.section--option_default {
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+.row--inline_flex {
+  display: inline-flex;
+}
+.row--justify_between {
+  justify-content: space-between;
+}
+.row--justify_around {
+  justify-content: space-around;
+}
+.row--justify_center {
+  justify-content: center;
+}
+
+.cell--10 {
+  width: 10%;
+
+}
+
+.cell--20 {
+  width: 20%;
+
+}
+
+.cell--30 {
+  width: 30%;
+
+}
+
+.cell--40 {
+  width: 40%;
+
+}
+
+.cell--50 {
+  width: 50%;
+
+}
+
+.cell--60 {
+  width: 60%;
+
+}
+
+.cell--70 {
+  width: 70%;
+
+}
+
+.cell--80 {
+  width: 80%;
+
+}
+
+.cell--90 {
+  width: 90%;
+
+}
+
+.cell--100 {
+  width: 100% ;
+
+}
+
+.panel {
+  min-width: 1px;
+}
+
+.panel__element {
+  min-width: 1px;
+}
+
+.panel__element--offset_bottom_lg {
+  padding-bottom: 50px;
+}
+
+/*caption*/
+.caption {
+  font-size: 16px;
+}
+
+.caption--size_1 {
+  font-size: 60px;
+}
+
+.caption--size_2 {
+  font-size: 30px;
+}
+
+.caption--size_3 {
+  font-size: 24px;
+}
+
+.caption--size_4 {
+  font-size: 20px;
+}
+.caption--transform_up {
+  text-transform: uppercase;
+}
+.caption--border_bot {
+  border-bottom: 1px dashed #a7a8b2;
+}
+
+.caption--appearance_sm {
+  line-height: 0.75;
+}
+
+.caption--variant_primary {
+  color: white
+}
+
+.caption--variant_secondary {
+  color: #a7a8b2;
+}
+/*menu*/
+.menu{
+
+}
+.menu__item {
+  
+}
+.menu-node{
+
+}
+.menu-link {
+  padding: 0 88px 0 0;
+}
+.menu--horizontal{
+
+}
+.menu--vertical{
+
+}
+.menu--dropdown{
+
+}
+.menu--main{
+
+}
