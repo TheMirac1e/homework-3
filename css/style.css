@@ -76,13 +76,13 @@ select {
   padding: 60px 0 60px;
 }
 .section--padding-second {
-  padding: 70px 0 110px;
+  padding: 140px 0 140px;
 }
 .section--padding_bot  {
   padding-bottom: 140px;
 }
 .--min_height {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 .section--bg_photo {
   background: url("../img/back_head.png") center no-repeat ;
@@ -234,7 +234,7 @@ select {
   border-bottom: 1px dashed #a7a8b2;
 }
 .caption--transform_Y {
-  transform: translateY(-136%);
+  transform: translateY(-247%);
 }
 .caption--appearance_sm {
   line-height: 0.75;
