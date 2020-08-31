@@ -224,7 +224,7 @@ select {
   min-width: 1px;
 }
 .panel__element--offset_bottom_lg {
-  padding-bottom: 50px;
+  min-width: 1px;
 }
 
 /*caption*/
@@ -265,7 +265,7 @@ select {
   text-transform: uppercase;
 }
 .caption--border_bot {
-  border-bottom: 1px dashed #a7a8b2;
+  border-bottom: 1px dashed #5c617f;
 }
 .caption--appearance_sm {
   line-height: 0.75;
@@ -275,6 +275,9 @@ select {
 }
 .caption--variant_secondary {
   color: #a7a8b2;
+}
+.caption--variant_italic {
+  color: #74747d;
 }
 .caption--variant_alternative {
   color: #00aaef;
@@ -286,6 +289,9 @@ select {
   padding-bottom: 50px;
 }
 .caption--padding_2 {
+  padding-bottom: 60px;
+}
+.caption--padding_3 {
   padding-bottom: 75px;
 }
 
